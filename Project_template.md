@@ -193,7 +193,6 @@ API key: sk-proj-abc123xyz789
 
 ---
 
-## Структура проекта
 quantumforge-rag-bot/
 ├── bot.py                  # FastAPI интерфейс
 ├── rag_bot.py              # Основной модуль RAG-бота (REPL)
@@ -218,9 +217,7 @@ quantumforge-rag-bot/
 └── faiss_index/            # FAISS векторный индекс
     ├── index.faiss
     └── index.pkl
-
-
----
+```
 
 ## Как запустить
 
