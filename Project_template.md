@@ -191,33 +191,7 @@ API key: sk-proj-abc123xyz789
 3. Реализовать rate limiting для предотвращения brute-force атак
 4. Добавить аудит-лог всех запросов и ответов
 
----
 
-quantumforge-rag-bot/
-├── bot.py                  # FastAPI интерфейс
-├── rag_bot.py              # Основной модуль RAG-бота (REPL)
-├── prompts.py              # Промпты с Few-shot, CoT и Safety
-├── safety.py               # Модуль защиты от промпт-инъекций
-├── build_index.py          # Создание FAISS индекса
-├── test_index.py           # Тестирование поиска
-├── test_safety.py          # Серия из 10 тестов
-├── create_docs.py          # Скрипт создания документов
-├── replace_terms.py        # Скрипт замены терминов
-├── requirements.txt        # Python зависимости
-├── terms_map.json          # Словарь замен терминов
-├── Dockerfile              # Docker образ
-├── docker-compose.yml      # Docker Compose конфигурация
-├── Project_template.md     # Этот файл
-├── knowledge_base/         # 43 документа базы знаний
-│   ├── Xarn_Velgor.md
-│   ├── Kael_Torren.md
-│   ├── Void_Core.md
-│   ├── MALICIOUS.md        # Злонамеренный файл для тестов
-│   └── ... (всего 43 файла)
-└── faiss_index/            # FAISS векторный индекс
-    ├── index.faiss
-    └── index.pkl
-```
 
 ## Как запустить
 
